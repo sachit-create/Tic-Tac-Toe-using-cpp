@@ -18,7 +18,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //row 1
     if((arr[0][0]=='O'&&arr[0][1]=='O'&&arr[0][2]=='O')||(arr[0][0]=='X'&&arr[0][1]=='X'&&arr[0][2]=='X')){
        print_final(arr);
-       cout << "row 1" << endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -29,7 +28,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //row 2
      if((arr[1][0]=='O'&&arr[1][1]=='O'&&arr[1][2]=='O')||(arr[1][0]=='X'&&arr[1][1]=='X'&&arr[1][2]=='X')){
        print_final(arr);
-       cout << "row 2" << endl;
        if(arr[1][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -40,7 +38,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //row 3
      if((arr[2][0]=='O'&&arr[2][1]=='O'&&arr[2][2]=='O')||(arr[2][0]=='X'&&arr[2][1]=='X'&&arr[2][2]=='X')){
        print_final(arr);
-       cout << "row 3" << endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -51,7 +48,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //column 1
      if((arr[0][0]=='O'&&arr[1][0]=='O'&&arr[2][0]=='O')||(arr[0][0]=='X'&&arr[1][0]=='X'&&arr[2][0]=='X')){
        print_final(arr);
-       cout << "colm 1" << endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -62,7 +58,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //column 2
      if((arr[0][1]=='O'&&arr[1][1]=='O'&&arr[2][1]=='O')||(arr[0][1]=='X'&&arr[1][1]=='X'&&arr[2][1]=='X')){
        print_final(arr);
-       cout << "colm 2" << endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -73,7 +68,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //column 3
      if((arr[0][2]=='O'&&arr[1][2]=='O'&&arr[2][2]=='O')||(arr[0][2]=='X'&&arr[1][2]=='X'&&arr[2][2]=='X')){
        print_final(arr);
-       cout << "col 3"<<endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -84,7 +78,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //diagonal 1
      if((arr[0][0]=='O'&&arr[1][1]=='O'&&arr[2][2]=='O')||(arr[0][0]=='X'&&arr[1][1]=='X'&&arr[2][2]=='X')){
        print_final(arr);
-       cout << "digo1"<< endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -95,7 +88,6 @@ bool create_result(char arr[3][3],char p1,char p2){
     //diagonal 2
      if((arr[2][0]=='O'&&arr[1][1]=='O'&&arr[0][2]=='O')||(arr[2][0]=='X'&&arr[1][1]=='X'&&arr[0][2]=='X')){
        print_final(arr);
-       cout << "digo2"<<endl;
        if(arr[0][0] == p1){
          cout << "So the Winner we have Player 1" << endl;
        }else{
@@ -132,7 +124,6 @@ bool insert(char arr[3][3], int r , int c,char val,int num,int ins_posi){
         return true;
     }else{
        arr[r][c] = val;
-       cout << "correct" << endl;
        return false;
     }
 }
