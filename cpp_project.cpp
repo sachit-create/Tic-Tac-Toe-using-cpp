@@ -1,7 +1,6 @@
 //Tic Tac Toe Game (Command line IO)
-
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<bits/stdc++.h>
 
 using namespace std;
 
